@@ -1,11 +1,11 @@
-package homework_recursion;
+package hw_recoursion_first;
 
-class TreeNode {
+public class TreeNode {
     int val;
     TreeNode left;
     TreeNode right;
 
-    TreeNode(int val) {
+    public TreeNode(int val) {
         this.val = val;
         this.left = null;
         this.right = null;

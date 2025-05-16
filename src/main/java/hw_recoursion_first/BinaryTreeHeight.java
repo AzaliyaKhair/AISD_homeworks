@@ -1,7 +1,7 @@
-package homework_recursion;
+package hw_recoursion_first;
 
 public class BinaryTreeHeight {
-    public int computeHeight(TreeNode node) { //рекурсивно вычисляем высоту
+    public int computeHeight(TreeNode node) {
         if (node == null) {
             return -1;
         }
